@@ -4,11 +4,11 @@ function distanceFromHqInBlocks (distance) {
 }
 
 function distanceFromHqInFeet (distance) {
-  return distanceFromHqInBlocks(distance) *42;
+  return distanceFromHqInBlocks(distance) *42
 }
 
 function distanceTravelledInFeet (uptown, downtown) {
-  return Math.abs(downtown - uptown)  * 42;
+  return Math.abs(downtown - uptown)  * 42
 }
 
 function calculatesFarePrice(start, destination) {
